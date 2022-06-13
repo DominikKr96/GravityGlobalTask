@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+}
+
+.main{
+    width: 1440px;
+    height: 100%;
+    display: flex;
+
+
+}
+
+
+.LoremContainer {
+    position: absolute;
+    width: 380px;
+    height: 96px;
+    left: calc(50% - 380px/2 + 300px);
+    top: calc(50% - 96px/2 - 222px);
+}
+
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+
+.popup{
+    position: absolute;
+    width: 505px;
+    height: 330px;
+    left: 10%;
+    top: 10%;
+    background: url("../../images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_c_scale,w_784.jpg");
+    display: none;
+
+}
+
+.btn{
+    width: 128px;
+    height: 48px;
+    background: #E4C1AE;
+    border-radius: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.btn-close{
+    width: 128px;
+    height: 48px;
+
+}
+
+.alert {
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 15%;
+    left: 450px;
+    top: 450px;
+    display: none;
+    z-index: 2;
+    background: #d5d0d0;
+    margin: 5px;
+    padding-left: 10px;
+
+}
+
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 5%;
+    height: 15%;
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+    .main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+
+    }
+
+    .LoremContainer{
+        width: 480px;
+        height: 319px;
+        left: 25%;
+        top: 5%;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 150;
+    }
+
+    .popup{
+        position: absolute;
+        width: 480px;
+        height: 319px;
+        left: 25%;
+        top: 40%;
+        background: url("../../images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_c_scale,w_480.jpg");
+        display: none;
+
+    }
+
+    .alert {
+        position: absolute;
+        width: 600px;
+        height: 150px;
+        left: 12%;
+        top: 80%;
+        background: #d5d0d0;
+        display: none;
+        z-index: 2;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+
+    .main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+
+    }
+    .LoremContainer{
+        width: 480px;
+        height: 40%;
+        left: 25%;
+        top: 5%
+    }
+    p{
+        font-size: 16px;
+        font-weight: 150;
+    }
+
+    .popup{
+        position: absolute;
+        width: 480px;
+        height: 319px;
+        left: 25%;
+        top: 400px;
+        background: url("../../images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_c_scale,w_480.jpg");
+        display: none;
+
+    }
+
+    .alert {
+        position: absolute;
+        width: 500px;
+        height: 150px;
+        left: 12%;
+        bottom: 10%;
+        background: #d5d0d0;
+        display: none;
+        z-index: 2;
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+
+    .main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+
+    }
+
+
+    .LoremContainer{
+        width: 200px;
+        height: 40%;
+        left: 25%;
+        top: 3%;
+
+    }
+    p{
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .popup{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 25%;
+        top: 350px;
+        background: url("../../images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_ar_1_1,c_fill,g_auto__c_scale,w_200.jpg");
+        display: none;
+
+    }
+
+    .alert {
+        position: absolute;
+        width: 280px;
+        height: 80px;
+        left: 12%;
+        top: 65%;
+        background: #d5d0d0;
+        display: none;
+        z-index: 2;
+    }
+
+    .alert h1 {
+        font-size: 16px;
+    }
+
+
+    .btn-close {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 7%;
+        height: 17%;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1000px){
+
+    .LoremContainer{
+        width: 130px;
+        height: 40%;
+        left: 64%;
+        top: 1%;
+
+    }
+
+    .LoremContainer h1{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .popup{
+        position: absolute;
+        width: 480px;
+        height: 319px;
+        left: 3%;
+        top: 4%;
+        background: url("../../images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_c_scale,w_480.jpg");
+        display: none;
+
+    }
+
+    .alert{
+        top: 70%;
+        height: 100px;
+        left: 1%;
+    }
+
+    .alert h1 {
+        font-size: 20px;
+    }
+
+
+}
+
+@media only screen and (orientation: landscape) and (max-width: 741px){
+
+
+    .LoremContainer{
+        left: 77%;
+
+    }
+
+
+
+}
